@@ -1,0 +1,10 @@
+Common/obj/
+Ephenet.Hub/bin/
+Ephenet.Hub/obj/
+Ephenet/bin/
+Ephenet/obj/
+Interface/obj/
+lib/PublicDomain/obj/
+Common/bin/
+Interface/bin/
+lib/PublicDomain/bin/
