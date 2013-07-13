@@ -11,6 +11,7 @@ Currently supports:
 Todo:
  * Code was written in a hurry, sparsely commented. Fix.
  * Unit tests.
+ * Visual Studio 2010 and MonoDevelop compatiblity.
  * A network protocol (like UDP or TCP) so that apps can start to make
    use of the virtual network.
 
@@ -19,6 +20,16 @@ A while away:
    virtual network (Windows.)
  * The above for Linux/BSD hosts.
  * The above for virtualization packages
+
+Requirements
+------------
+
+* Visual Studio 2012 Express
+* .NET 4.5
+
+Note: the project aims to be compatible with Visual Studio 2010 Express
+as well as MonoDevelop, however this compatibility will be in a future
+release.
 
 Usage
 -----
