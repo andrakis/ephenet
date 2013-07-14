@@ -84,7 +84,7 @@ namespace Ephenet.Sample
 			// same message multiple times, a problem that the protocol layer will have
 			// to deal with (or not.)
 			Random rand = new Random();
-			Hub[] hubs = new Hub[rand.Next(10, 30) + 1];
+			Hub[] hubs = new Hub[rand.Next(5, 10) + 1];
 			for (int i = 0; i < hubs.Length; i++)
 			{
 				Hub hub = new Hub(rand.Next(4, 24));
