@@ -87,7 +87,7 @@ namespace Ephenet.Interface
 		/// <summary>
 		/// Create a clone of the terminal database to browse.
 		/// </summary>
-		public Dictionary<ShortGuid, TerminalBase> Terminals
+		public static Dictionary<ShortGuid, TerminalBase> Terminals
 		{
 			get { return new Dictionary<ShortGuid, TerminalBase>(TerminalBase.terminalDB); }
 		}

@@ -22,9 +22,11 @@ namespace Ephenet.Interface
 			this.PlugOutEvent = was => {
 				Console.WriteLine("{0}: Lost connection to {1}", this.Address, was.Address);
 			};
+
+			this.ReceiveEvent = OnReceiveHandler;
 		}
 
-		protected override void OnReceive()
+		public void OnReceiveHandler()
 		{
 			Datagram[] grams = {};
 			this.DatagramCriticalSection((Datagrams) =>
