@@ -38,18 +38,6 @@ namespace Ephenet.Sample
 			DumpTerminal t1 = new DumpTerminal();
 			DumpTerminal t2 = new DumpTerminal();
 
-			/*
-			Timeout.Set(new TimeSpan(0, 0, 1), () =>
-			{
-				Console.WriteLine("Timeout after 5 seconds :)");
-				Timeout.Set(new TimeSpan(0, 0, 1), () => {
-					Console.WriteLine("And one more for good luck");
-				});
-			});
-
-			Console.WriteLine("Waiting for timeout?");
-			 */
-
 			t1.PlugIn(t2);
 
 			t1.Send(new Datagram(t1, t2, "Hello world".ToCharArray()));

@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephenet", "Ephenet\Ephenet.csproj", "{098BF314-A5E5-4239-B585-AF1E8035A970}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EphenetSample", "Ephenet\EphenetSample.csproj", "{098BF314-A5E5-4239-B585-AF1E8035A970}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephenet.Interface", "Interface\Ephenet.Interface.csproj", "{CB79D29D-D76B-4B5A-A7D3-7096C72A2151}"
 EndProject
