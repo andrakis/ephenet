@@ -7,8 +7,8 @@
     <ProjectGuid>{098BF314-A5E5-4239-B585-AF1E8035A970}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ephenet</RootNamespace>
-    <AssemblyName>Ephenet</AssemblyName>
+    <RootNamespace>Ephenet.Sample</RootNamespace>
+    <AssemblyName>Ephenet.Sample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Ephenet.Sample.Sample</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,14 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EphenetSample.cs" />
+    <Compile Include="Sample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Ephenet.Common.csproj">
+    <ProjectReference Include="..\Ephenet.Common\Ephenet.Common.csproj">
       <Project>{7a58de6a-9ac7-40fc-89a5-f2a971726dbf}</Project>
       <Name>Ephenet.Common</Name>
     </ProjectReference>

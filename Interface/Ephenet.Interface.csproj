@@ -50,12 +50,13 @@
     <Compile Include="InvokeGuard.cs" />
     <Compile Include="Terminal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TerminalThreads.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Ephenet.Common.csproj">
+    <ProjectReference Include="..\Ephenet.Common\Ephenet.Common.csproj">
       <Project>{7a58de6a-9ac7-40fc-89a5-f2a971726dbf}</Project>
       <Name>Ephenet.Common</Name>
     </ProjectReference>

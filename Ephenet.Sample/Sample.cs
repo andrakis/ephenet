@@ -31,7 +31,7 @@ using Ephenet;
 
 namespace Ephenet.Sample
 {
-    class EphenetSample
+    class Sample
     {
         static void Main(string[] args)
         {
