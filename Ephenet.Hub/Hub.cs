@@ -44,12 +44,7 @@ namespace Ephenet
 		/// <returns></returns>
 		private bool isRehop(Datagram datagram)
 		{
-			bool result = datagram.Hops.Reverse().Any(hop =>
-			{
-				Console.WriteLine("Is {0} in the list?", hop);
-				return terminals.ContainsKey(hop);
-			});
-			Console.WriteLine("Any? {0}", result);
+			bool result = datagram.Hops.Reverse().Any(hop => terminals.ContainsKey(hop));
 			return result;
 		}
 	}

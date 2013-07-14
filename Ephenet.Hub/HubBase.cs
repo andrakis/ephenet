@@ -33,6 +33,7 @@ namespace Ephenet.HubImplementation
 
 		public static int DefaultPorts = 4;
 
+		[Flags]
 		public enum DebugLevel
 		{
 			/// <summary>
@@ -66,9 +67,9 @@ namespace Ephenet.HubImplementation
 		};
 
 #if RELEASE
-		public int DebugVerbosity = (int)DebugLevel.None;
+		public DebugLevel DebugVerbosity = DebugLevel.None;
 #elif DEBUG
-		public int DebugVerbosity = (int)DebugLevel.LogPlugs | (int)DebugLevel.LogDehop | (int)DebugLevel.LogSends;
+		public DebugLevel DebugVerbosity = DebugLevel.LogPlugs | DebugLevel.LogDehop | DebugLevel.LogSends;
 #endif
 
 		/// <summary>
@@ -79,9 +80,9 @@ namespace Ephenet.HubImplementation
 		/// <param name="args"></param>
 		protected void Log(DebugLevel level, string format, params object[] args)
 		{
-			if ((DebugVerbosity & (int)level) != 0)
+			if ((DebugVerbosity & level) != 0)
 			{
-				Console.WriteLine("Hub-{0} - {1}", Address, String.Format(format, args));
+				Console.WriteLine("Hub/{0} - {1}", Address, String.Format(format, args));
 			}
 		}
 
