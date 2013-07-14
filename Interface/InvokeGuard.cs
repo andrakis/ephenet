@@ -14,7 +14,7 @@ namespace Ephenet.Interface
     public abstract class InvokeGuard
     {
         private Dictionary<string, object> variables = new Dictionary<string, object>();
-        object variables_lock;
+        object variables_lock = new Object();
 
         public InvokeGuard() { }
 

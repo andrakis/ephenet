@@ -77,7 +77,6 @@ namespace Ephenet.HubImplementation
 		/// <param name="level"></param>
 		/// <param name="format"></param>
 		/// <param name="args"></param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		protected void Log(DebugLevel level, string format, params object[] args)
 		{
 			if ((DebugVerbosity & (int)level) != 0)
