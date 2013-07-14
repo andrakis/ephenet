@@ -135,7 +135,7 @@ namespace Ephenet.HubImplementation
 
 		protected abstract void OnReceive(TerminalBase sender, Datagram datagram);
 
-		public virtual bool PlugInToFree(TerminalBase remote)
+		public virtual bool PlugIntoFree(TerminalBase remote)
 		{
 			TerminalBase free = GetFreeTerminal();
 			if (free == null)
