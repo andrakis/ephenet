@@ -8,3 +8,4 @@ lib/PublicDomain/obj/
 Common/bin/
 Interface/bin/
 lib/PublicDomain/bin/
+*.suo
