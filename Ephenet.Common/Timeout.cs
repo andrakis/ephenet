@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ephenet.Interface
+namespace Ephenet.Common
 {
 	/// <summary>
 	/// Provides an interface similar to EMCA (JavaScript)'s setTimeout.

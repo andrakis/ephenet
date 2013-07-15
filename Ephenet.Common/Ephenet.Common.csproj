@@ -7,7 +7,7 @@
     <ProjectGuid>{7A58DE6A-9AC7-40FC-89A5-F2A971726DBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Common</RootNamespace>
+    <RootNamespace>Ephenet.Common</RootNamespace>
     <AssemblyName>Ephenet.Common</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
