@@ -11,7 +11,7 @@ Currently supports:
 Todo:
  * Code was written in a hurry, sparsely commented. Fix.
  * Unit tests.
- * Visual Studio 2010 and MonoDevelop compatiblity.
+ * MonoDevelop compatiblity.
  * A network protocol (like UDP or TCP) so that apps can start to make
    use of the virtual network.
 
@@ -24,18 +24,17 @@ A while away:
 Requirements
 ------------
 
-* Visual Studio 2012 Express
-* .NET 4.5
+* Visual Studio 2010 or 2012 (Express editions are fine)
+* .NET 4.0
 
-Note: the project aims to be compatible with Visual Studio 2010 Express
-as well as MonoDevelop, however this compatibility will be in a future
-release.
+Note: the project aims to be compatible with MonoDevelop, however this
+compatibility will be in a future release.
 
 Usage
 -----
 
-See Ephenet/Ephenet.cs for a preliminary example.
-Once there is a network protocol, there will be samples here, as well
+See Ephenet.Sample/Sample.cs for a preliminary example.
+Once there is a network protocol, there will be more samples, as well
 as unit tests.
 
 By

@@ -12,15 +12,18 @@ namespace GenSharp
 {
 	/// <summary>
 	/// Provides a generic worker service.
-	/// Requires a class that implements IGenWorker T.
+	/// Requires a class that implements a matching IGenWorker.
 	/// </summary>
 	/// <typeparam name="T">Type of data the worker works with.</typeparam>
 	public class GenWorker<DataType, StateType> : Gen, IDisposable
 	{
+		/// <summary>
+		/// The type of the worker class.
+		/// </summary>
 		protected readonly Type WorkerType;
 
 		/// <summary>
-		/// Workers is a managed list of {WorkerInstance, WorkerState}.
+		/// The list of worker controllers.
 		/// </summary>
 		protected List<WorkerProcessController> workers = new List<WorkerProcessController>();
 
