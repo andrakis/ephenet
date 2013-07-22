@@ -14,7 +14,13 @@ namespace GenSharp
 	/// Provides a generic worker service.
 	/// Requires a class that implements a matching IGenWorker.
 	/// </summary>
-	/// <typeparam name="T">Type of data the worker works with.</typeparam>
+	/// <typeparam name="DataType">Type of data that is sent to the worker.</typeparam>
+	/// <typeparam name="StateType">
+	///		Type of state the worker can receive and update.
+	///		This state is created in the worker implementation's Init function,
+	///		and is passed to the worker implementation each time it receives a
+	///		piece of data. That function can optionally return a new state.
+	///	</typeparam>
 	public class GenWorker<DataType, StateType> : Gen, IDisposable
 	{
 		/// <summary>
@@ -60,10 +66,7 @@ namespace GenSharp
 		{
 			WorkerProcessController worker = new WorkerProcessController(this, WorkerType, args);
 
-			Thread t = new Thread(() =>
-			{
-				worker.Loop();
-			});
+			Thread t = new Thread(worker.Loop);
 
 			workers.Add(worker);
 			t.Start();
