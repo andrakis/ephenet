@@ -1,4 +1,12 @@
-﻿using Ephenet.HubImplementation;
+﻿/**
+ * Ephenet Hub
+ * 
+ * Provides a virtual hub for an arbitary number of ports.
+ * Simply replicates data to all given ports that are in use.
+ *
+ */
+
+using Ephenet.HubImplementation;
 using Ephenet.Interface;
 using System;
 using System.Collections.Generic;

@@ -1,12 +1,4 @@
-﻿/**
- * Ephenet Hub
- * 
- * Provides a virtual hub for an arbitary number of ports.
- * Simply replicates data to all given ports that are in use.
- *
- */
-
-using Ephenet.Interface;
+﻿using Ephenet.Interface;
 using PublicDomain.CSharpVitamins;
 using System;
 using System.Collections.Generic;
