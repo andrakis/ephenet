@@ -56,6 +56,12 @@ By
 Julian "Andrakis" Thatcher <julian@noblesamurai.com>
 
 
+Special Thanks
+--------------
+
+ * [kivikakk](https://github.com/kivikakk) - Many ideas, inspirations, and help
+
+
 License - MIT License
 ---------------------
 Copyright (C) 2013 Julian Thatcher
