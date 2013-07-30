@@ -11,7 +11,7 @@ namespace GenSharp.Sample
 	struct SampleState
 	{
 		public readonly Thread Thread;
-		public Callback<string>.Type Callback;
+		public readonly Callback<string>.Type Callback;
 
 		public SampleState(Thread thread, Callback<string>.Type callback)
 		{
