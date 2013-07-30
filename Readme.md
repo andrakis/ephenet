@@ -21,6 +21,7 @@ A while away:
  * The above for Linux/BSD hosts.
  * The above for virtualization packages
 
+
 Requirements
 ------------
 
@@ -30,6 +31,7 @@ Requirements
 
 Note: the project aims to be compatible with MonoDevelop, however this
 compatibility will be in a future release.
+
 
 Usage
 -----
@@ -48,9 +50,11 @@ See Ephenet.Sample/Sample.cs for a preliminary example.
 Once there is a network protocol, there will be more samples, as well
 as unit tests.
 
+
 By
 --
 Julian "Andrakis" Thatcher <julian@noblesamurai.com>
+
 
 License - MIT License
 ---------------------
