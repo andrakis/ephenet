@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Timeout.cs" />
-    <Compile Include="WorkerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GenSharp\GenSharp.csproj">

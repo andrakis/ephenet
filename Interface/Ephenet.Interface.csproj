@@ -44,10 +44,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DumpTerminal.cs" />
-    <Compile Include="EventListener.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="Instrumentation.cs" />
-    <Compile Include="InvokeGuard.cs" />
     <Compile Include="Terminal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
