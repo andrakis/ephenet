@@ -26,12 +26,23 @@ Requirements
 
 * Visual Studio 2010 or 2012 (Express editions are fine)
 * .NET 4.0
+* [GenSharp](https://github.com/andrakis/gensharp) (included as a submodule)
 
 Note: the project aims to be compatible with MonoDevelop, however this
 compatibility will be in a future release.
 
 Usage
 -----
+
+Please initialize the submodule(s):
+```
+$ git submodule update --init
+```
+
+From time to time you may also need to update the submodule(s):
+```
+$ git submodule update
+```
 
 See Ephenet.Sample/Sample.cs for a preliminary example.
 Once there is a network protocol, there will be more samples, as well

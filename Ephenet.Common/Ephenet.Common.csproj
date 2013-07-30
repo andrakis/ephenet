@@ -44,7 +44,7 @@
     <Compile Include="Timeout.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GenSharp\GenSharp.csproj">
+    <ProjectReference Include="..\lib\GenSharp\GenSharp.csproj">
       <Project>{f40540c8-83ec-4e30-97f2-86208386917d}</Project>
       <Name>GenSharp</Name>
     </ProjectReference>

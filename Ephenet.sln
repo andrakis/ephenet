@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephenet.Sample", "Ephenet.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephenet", "Ephenet\Ephenet.csproj", "{0D00975F-CF96-46B2-965C-4781C825C2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenSharp", "GenSharp\GenSharp.csproj", "{F40540C8-83EC-4E30-97F2-86208386917D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenSharp", "lib\GenSharp\GenSharp.csproj", "{F40540C8-83EC-4E30-97F2-86208386917D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
