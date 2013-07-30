@@ -55,9 +55,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ephenet.Common\Ephenet.Common.csproj">
-      <Project>{7a58de6a-9ac7-40fc-89a5-f2a971726dbf}</Project>
-      <Name>Ephenet.Common</Name>
+    <ProjectReference Include="..\GenSharp\GenSharp.csproj">
+      <Project>{f40540c8-83ec-4e30-97f2-86208386917d}</Project>
+      <Name>GenSharp</Name>
     </ProjectReference>
     <ProjectReference Include="..\lib\PublicDomain\PublicDomain.csproj">
       <Project>{c78bb895-2e23-4a21-87a7-1955f7bc588d}</Project>

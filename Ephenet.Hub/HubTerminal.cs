@@ -1,5 +1,5 @@
-﻿using Ephenet.Common;
-using Ephenet.Interface;
+﻿using Ephenet.Interface;
+using GenSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;

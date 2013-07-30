@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ephenet.Common
+namespace GenSharp
 {
 	/// <summary>
 	/// A simple callback type. It takes no parameters and is void type.

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Callback.cs" />
     <Compile Include="Gen.cs" />
     <Compile Include="GenWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,10 +51,7 @@
     <Compile Include="Sample\SampleWorkerTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ephenet.Common\Ephenet.Common.csproj">
-      <Project>{7a58de6a-9ac7-40fc-89a5-f2a971726dbf}</Project>
-      <Name>Ephenet.Common</Name>
-    </ProjectReference>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
