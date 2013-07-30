@@ -3,6 +3,11 @@ Ephenet.Hub/bin/
 Ephenet.Hub/obj/
 Ephenet/bin/
 Ephenet/obj/
+Ephenet.Common/obj/
+Ephenet.Sample/bin/
+Ephenet.Sample/obj/
+GenSharp/bin/
+GenSharp/obj/
 Interface/obj/
 lib/PublicDomain/obj/
 Common/bin/
